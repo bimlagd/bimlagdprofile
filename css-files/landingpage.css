@@ -119,6 +119,7 @@ transform: translate(-40%, -40%);
   color: rgb(233, 221, 221);
     height: 80vh;
     background-color: rgb(56, 3, 3);
+    width: 100%;
     
 }
 
@@ -257,24 +258,98 @@ p{
     
 }
 
+/*projects completed*/
+#projects-completed{
+    background-color: rgb(4, 82, 43);
+    height: 67vh;
+    width: 100%;  
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.projects-icon{
+    margin-left: 5%;
+    height: 30vh;
+    width: 20vw;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 45px;
+}
+
+.projects-container{
+    height: 58vh;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-gap: 0.8rem;
+    width: 100%;
+
+  
+}
+
+#projects-heading{
+    text-align: center;
+font-size: 1.3rem;
+width: 100%;
+color: white;
+
+
+}
+
+.sub-heading{
+    text-align: center;
+    font-size: 0.8rem;
+    color: white; 
+   margin-bottom: 3%;
+}
+
+#project-completed{
+    background-color: rgb(49, 2, 2);
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+   padding: 5px 20px;
+text-decoration: none;
+
+}
+.images1{
+    margin-bottom: 7%;
+}
+
+
+#project-para{
+    margin-top: 2%;
+}
+
+#project-completed:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+
 /*blog*/
 #blog{
-    background-color: rgb(238, 238, 238);
+    background-color:rgb(243, 235, 235);
     height: 75vh;
     width: 100%;  
     margin-top: 1px;
 }
 
 .blog-icon{
-    height: 35vh;
-    width: 25vw;
-    border: 1px solid rgb(241, 187, 36);
-    border-radius: 7px;
+    height: 30vh;
+    width: 20vw;
+    border: 1.5px solid rgb(4, 82, 43);
+    border-radius: 37px;
+    padding: 20px;
+    
 
 }
 
 .blog-container{
-    height: 65vh;
+    height: 60vh;
     display:grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
@@ -286,7 +361,7 @@ p{
     font-size: small;
     font-weight: bold;
     margin: 0px 5px;
-    background-color: whitesmoke;
+ 
   
 }
 
@@ -296,6 +371,10 @@ p{
 
 .blog-heading{
     margin-bottom: 20px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 #heading-4{
@@ -317,10 +396,20 @@ font-family: 'Open Sans', sans-serif;
    
 /*for content inside blog*/
 #blog-writing:hover{
-    color: red;
+  background-color: red;
+  cursor: pointer;
 }    
 
+#blog-writing{
+    background-color: rgb(4, 73, 38);
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+   padding: 5px 20px;
+text-decoration: none;
+font-family: 'Open Sans', sans-serif;
 
+}
 
 
 
