@@ -338,6 +338,8 @@ font-family: 'Open Sans', sans-serif;
     flex-direction: row;
     justify-content: right;
     margin-right: 20%;
+    color: black;
+    font-size: 1rem;
    
 
 }
@@ -356,15 +358,21 @@ font-family: 'Open Sans', sans-serif;
 
 .btn-2:hover {
     background-color: yellow;
-    color: black;
+    color: red;
+    transform: translatex(5px);
+    border: 2px solid white;
+    border-radius: 3px;
+
   }
 
   .btn:hover {
     background-color: yellow;
-    color: black;
+    transform: translatex(5px);
+    border: 2px solid white;
+    border-radius: 3px;  
   }
 
-  
+
 /*projects completed*/
 #projects-completed{
     background-color: rgb(207, 207, 207);
